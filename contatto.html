@@ -89,24 +89,24 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <form action="">
-            <div>
-              <input type="text" placeholder="Nome" />
-            </div>
-            <div>
-              <input type="email" placeholder="Email" />
-            </div>
-            <div>
-              <input type="text" placeholder="Numero di telefono" />
-            </div>
-            <div>
-              <input type="text" class="message-box" placeholder="Message" />
-            </div>
-            <div class="d-flex ">
-              <button>
-                INVIA
-              </button>
-            </div>
+          <form action="send_email.php" method="post">
+              <div>
+                  <input type="text" name="name" placeholder="Nome" required />
+              </div>
+              <div>
+                  <input type="email" name="email" placeholder="Email" required />
+              </div>
+              <div>
+                  <input type="text" name="phone" placeholder="Numero di telefono" />
+              </div>
+              <div>
+                  <textarea name="message" class="message-box" placeholder="Message" required></textarea>
+              </div>
+              <div class="d-flex">
+                  <button type="submit">
+                      INVIA
+                  </button>
+              </div>
           </form>
         </div>
         <div class="col-md-6">
