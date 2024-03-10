@@ -293,17 +293,17 @@ a:focus {
           transform: translate(-45px, 0);
 }
 
-.servizi_section {
+.service_section {
   text-align: center;
 }
 
-.servizi_section .heading_container {
+.service_section .heading_container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.servizi_section .service_container {
+.service_section .service_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,7 +315,7 @@ a:focus {
       flex-wrap: wrap;
 }
 
-.servizi_section .service_container .box {
+.service_section .service_container .box {
   margin: 25px 1%;
   -ms-flex-preferred-size: 31%;
       flex-basis: 31%;
@@ -329,7 +329,7 @@ a:focus {
   transition: all .1s;
 }
 
-.servizi_section .service_container .box .img-box {
+.service_section .service_container .box .img-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -342,25 +342,25 @@ a:focus {
   height: 125px;
 }
 
-.servizi_section .service_container .box .img-box img {
+.service_section .service_container .box .img-box img {
   width: 90px;
 }
 
-.servizi_section .service_container .box .detail-box {
+.service_section .service_container .box .detail-box {
   margin-top: 25px;
 }
 
-.servizi_section .service_container .box .detail-box h5 {
+.service_section .service_container .box .detail-box h5 {
   color: #2e0e5f;
   font-weight: 600;
   position: relative;
 }
 
-.servizi_section .service_container .box:hover, .servizi_section .service_container .box.active {
+.service_section .service_container .box:hover, .service_section .service_container .box.active {
   border-top: 15px solid #512a97;
 }
 
-.servizi_section .btn-box {
+.service_section .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,7 +370,7 @@ a:focus {
   margin-top: 25px;
 }
 
-.servizi_section .btn-box a {
+.service_section .btn-box a {
   display: inline-block;
   padding: 10px 35px;
   background-color: #4b208c;
@@ -378,7 +378,7 @@ a:focus {
   border-radius: 35px;
 }
 
-.servizi_section .btn-box a:hover {
+.service_section .btn-box a:hover {
   background-color: #5625a1;
 }
 
