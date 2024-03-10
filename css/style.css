@@ -303,7 +303,7 @@ a:focus {
           justify-content: center;
 }
 
-.servizi_section .servizi_container {
+.servizi_section .service_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,7 +315,7 @@ a:focus {
       flex-wrap: wrap;
 }
 
-.servizi_section .servizi_container .box {
+.servizi_section .service_container .box {
   margin: 25px 1%;
   -ms-flex-preferred-size: 31%;
       flex-basis: 31%;
@@ -329,7 +329,7 @@ a:focus {
   transition: all .1s;
 }
 
-.servizi_section .servizi_container .box .img-box {
+.servizi_section .service_container .box .img-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -342,21 +342,21 @@ a:focus {
   height: 125px;
 }
 
-.servizi_section .servizi_container .box .img-box img {
+.servizi_section .service_container .box .img-box img {
   width: 90px;
 }
 
-.servizi_section .servizi_container .box .detail-box {
+.servizi_section .service_container .box .detail-box {
   margin-top: 25px;
 }
 
-.servizi_section .servizi_container .box .detail-box h5 {
+.servizi_section .service_container .box .detail-box h5 {
   color: #2e0e5f;
   font-weight: 600;
   position: relative;
 }
 
-.servizi_section .servizi_container .box:hover, .servizi_section .servizi_container .box.active {
+.servizi_section .service_container .box:hover, .servizi_section .service_container .box.active {
   border-top: 15px solid #512a97;
 }
 
