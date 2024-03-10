@@ -29,7 +29,7 @@
     margin-right: 5%;
   }
 
-  .service_section .service_container .box {
+  .servizi_section .servizi_container .box {
     -ms-flex-preferred-size: 48%;
     flex-basis: 48%;
   }
@@ -63,7 +63,7 @@
     justify-content: center;
   }
 
-  .service_section .service_container .box {
+  .servizi_section .servizi_container .box {
     flex-basis: 98%;
   }
 
