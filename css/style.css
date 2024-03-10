@@ -382,17 +382,17 @@ a:focus {
   background-color: #5625a1;
 }
 
-.about_section {
+.informazioni_section {
   background-color: #f3f0f6;
 }
 
-.about_section .row {
+.informazioni_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.about_section .img_container {
+.informazioni_section .img_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -402,35 +402,35 @@ a:focus {
           flex-direction: column;
 }
 
-.about_section .img_container .img-box {
+.informazioni_section .img_container .img-box {
   border: 5px solid #7b57b2;
   border-radius: 100%;
   overflow: hidden;
 }
 
-.about_section .img_container .img-box.b1 {
+.informazioni_section .img_container .img-box.b1 {
   width: 70%;
 }
 
-.about_section .img_container .img-box.b2 {
+.informazioni_section .img_container .img-box.b2 {
   width: 50%;
   margin-left: auto;
   margin-top: -12%;
 }
 
-.about_section .img_container .img-box img {
+.informazioni_section .img_container .img-box img {
   width: 100%;
 }
 
-.about_section .detail-box {
+.informazioni_section .detail-box {
   margin-right: 15%;
 }
 
-.about_section .detail-box p {
+.informazioni_section .detail-box p {
   margin-top: 25px;
 }
 
-.about_section .detail-box a {
+.informazioni_section .detail-box a {
   display: inline-block;
   padding: 10px 35px;
   background-color: #4b208c;
@@ -439,7 +439,7 @@ a:focus {
   margin: 25px 0 45px 0;
 }
 
-.about_section .detail-box a:hover {
+.informazioni_section .detail-box a:hover {
   background-color: #5625a1;
 }
 
